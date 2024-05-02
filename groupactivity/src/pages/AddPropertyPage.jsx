@@ -1,5 +1,12 @@
+import Navbar from "../components/Navbar";
+
 function AddPropertyPage() {
-  return <div>Add Property Page</div>;
+  return (
+    <div>
+      <Navbar />
+      Add Property Page
+    </div>
+  );
 }
 
 export default AddPropertyPage;

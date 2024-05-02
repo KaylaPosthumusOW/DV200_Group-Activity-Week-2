@@ -1,5 +1,12 @@
+import Navbar from "../components/Navbar";
+
 function PropertyDetailsPage() {
-  return <div>Property Details Page</div>;
+  return (
+    <div>
+      <Navbar />
+      Property Details Page
+    </div>
+  );
 }
 
 export default PropertyDetailsPage;
