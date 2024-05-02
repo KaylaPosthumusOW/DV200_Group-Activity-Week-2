@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// Import Pages
 import HomePage from "./pages/HomePage";
 import AddPropertyPage from "./pages/AddPropertyPage";
 import PropertyDetailsPage from "./pages/PropertyDetailsPage";
