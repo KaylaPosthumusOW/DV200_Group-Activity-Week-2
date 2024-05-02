@@ -7,24 +7,10 @@ import propertyList from '../propertyList';
 function PropertyCard(propertyID) {
     let property = null;
     for (let i = 0; i < propertyList.length; i++) {
-        console.log(propertyList[i].id);
         if (propertyList[i].id == propertyID.propertyID) {
             property = propertyList[i];
         }
     }
-    console.log(property);
-    // let cardProps = {
-    //     propertyID: property.id,
-    //     propertyTitless: property.title,
-    //     propertyPrice: property.price,
-    //     propertyDescription: property.description,
-    //     propertyLocation: property.location,
-    //     propertyImageUrl: property.imageUrl,
-    //     propertyBedrooms: property.bedrooms,
-    //     propertyBathrooms: property.bathrooms,
-    //     propertyAmenities: property.amenities
-    // }
-
 
     return (
         <Card style={{ width: '18rem' }}>

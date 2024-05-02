@@ -2,7 +2,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 // Import Components
 import PropertyCard from "../components/Card";
-import CardGroup from "../components/CardGroup";
 import Navbar from "../components/Navbar";
 import heroHouseImg from "../assets/houseHero.png";
 import Button from "react-bootstrap/Button";
@@ -15,21 +14,17 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Footer from "../components/Footer";
 
+import propertyList from '../propertyList';
+
 function HomePage() {
+  let propertiesToLoad = [''];
+  for (let i = 0; i < propertyList.length; i++) {
+      propertiesToLoad[i] = propertyList[i].id;
+  }
 
-  let property = {
-    id: 1,
-    title: 'Elevate Modern Home',
-    price: '$250,000',
-    description: 'Spacious and modern apartment located in the heart of the city.',
-    location: 'Pretoria - Moreleta Park',
-    imageUrl: '../assets/house 1.jpg',
-    bedrooms: '4',
-    bathrooms: '2',
-    amenities: 'Braai Area, Swimming Pool, Parking Garage'
-  };
-  console.log(property.id);
-
+  function loadCards(ids) {
+    // if
+  }
 
   return (
     <div>
@@ -87,18 +82,31 @@ function HomePage() {
           </div>
           <div className="col-12">
             <div className="row">
-              
               <div className="col-3">
-                <PropertyCard propertyID={property.id}></PropertyCard>
+                <PropertyCard propertyID={propertiesToLoad[0]}></PropertyCard>
               </div>
               <div className="col-3">
-                <PropertyCard propertyID={property.id}></PropertyCard>
+                <PropertyCard propertyID={propertiesToLoad[1]}></PropertyCard>
               </div>
               <div className="col-3">
-                <PropertyCard propertyID={property.id}></PropertyCard>
+                <PropertyCard propertyID={propertiesToLoad[2]}></PropertyCard>
               </div>
               <div className="col-3">
-                <PropertyCard propertyID={property.id}></PropertyCard>
+                <PropertyCard propertyID={propertiesToLoad[3]}></PropertyCard>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-3">
+                <PropertyCard propertyID={propertiesToLoad[4]}></PropertyCard>
+              </div>
+              <div className="col-3">
+                <PropertyCard propertyID={propertiesToLoad[5]}></PropertyCard>
+              </div>
+              <div className="col-3">
+                <PropertyCard propertyID={propertiesToLoad[6]}></PropertyCard>
+              </div>
+              <div className="col-3">
+                <PropertyCard propertyID={propertiesToLoad[7]}></PropertyCard>
               </div>
             </div>
               
