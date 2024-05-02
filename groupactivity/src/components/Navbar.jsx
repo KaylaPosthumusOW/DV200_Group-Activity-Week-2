@@ -7,24 +7,23 @@ function Navbar() {
     <nav class="navbar navbar-expand-lg" >
       <div class="container-fluid">
         <Link class="navbar-brand" to="/">
-          YourHome
+          IdealHomes
         </Link>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+
+        <Link class="nav-link-home" to="/">
+          Home
+        </Link>
+
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <Link class="nav-link" to="/addproperty">
-              Add a New Property
+            <Link class="nav-link-addproperty" to="/addproperty">
+              Add a Property
             </Link>
+
+            <Link class="nav-link-details" to="/PropertyDetailsPage">
+              Property Details
+            </Link>
+
           </div>
         </div>
       </div>
