@@ -5,6 +5,11 @@ import PropertyCard from "../components/Card";
 import Navbar from "../components/Navbar";
 import heroHouseImg from "../assets/houseHero.png";
 
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Dropdown from "react-bootstrap/Dropdown";
+
 function HomePage() {
   return (
     <div>
@@ -38,6 +43,25 @@ function HomePage() {
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-12">
             <h2 className="display-8 fw-bold lh-1 mb-3">All Properties</h2>
+            <Dropdown>
+              <Dropdown.Toggle variant="success" id="dropdown-basic">
+                Dropdown Button
+              </Dropdown.Toggle>
+
+              <Dropdown.Menu>
+                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
+            <Container>
+              <Row>
+                <Col>Test 1</Col>
+                <Col>Test 2</Col>
+                <Col>Test 3</Col>
+                <Col>Test 4</Col>
+              </Row>
+            </Container>
           </div>
           <div className="col-12"></div>
         </div>
