@@ -1,13 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+
+// Import Components
+import PropertyCard from "../components/Card";
 import Navbar from "../components/Navbar";
 
 function HomePage() {
-  return (
-    <div>
-      <Navbar />
-      Home Page
-    </div>
-  );
+
+
+  return {}
 }
 
 export default HomePage;

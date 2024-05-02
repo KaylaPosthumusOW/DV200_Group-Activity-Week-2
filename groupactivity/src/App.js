@@ -1,9 +1,13 @@
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Import Pages
 import HomePage from "./pages/HomePage";
 import AddPropertyPage from "./pages/AddPropertyPage";
 import PropertyDetailsPage from "./pages/PropertyDetailsPage";
+
+// Import Components
+import PropertyCard from "./components/Card";
 
 function App() {
   return (
@@ -14,6 +18,7 @@ function App() {
         <Route path="/propertydetails" element={<PropertyDetailsPage />} />
       </Routes>
     </Router>
+
   );
 }
 
