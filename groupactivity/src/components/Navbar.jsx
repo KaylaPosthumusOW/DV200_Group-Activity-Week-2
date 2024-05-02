@@ -1,12 +1,13 @@
 // Import Link
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg" >
       <div class="container-fluid">
         <Link class="navbar-brand" to="/">
-          Navbar
+          YourHome
         </Link>
         <button
           class="navbar-toggler"
