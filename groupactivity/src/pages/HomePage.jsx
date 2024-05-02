@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 // Import Components
 import PropertyCard from "../components/Card";
+import CardGroup from "../components/CardGroup";
 import Navbar from "../components/Navbar";
 import heroHouseImg from "../assets/houseHero.png";
 
@@ -39,7 +40,11 @@ function HomePage() {
           <div className="col-12">
             <h2 className="display-8 fw-bold lh-1 mb-3">All Properties</h2>
           </div>
-          <div className="col-12"></div>
+          <div className="col-12">
+            
+              
+             
+          </div>
         </div>
       </div>
     </div>
