@@ -71,14 +71,6 @@ function HomePage() {
               <Dropdown.Item href="#/action-8">Price R1,000,000 - R5,000,000</Dropdown.Item>
               <Dropdown.Item href="#/action-9">Price Above R5,000,000</Dropdown.Item>
             </DropdownButton>
-            <Container>
-              <Row>
-                <Col>Test 1</Col>
-                <Col>Test 2</Col>
-                <Col>Test 3</Col>
-                <Col>Test 4</Col>
-              </Row>
-            </Container>
           </div>
           <div className="col-12">
             <div className="row">
