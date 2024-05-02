@@ -28,7 +28,7 @@ function HomePage() {
 
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="container col-xxl-8 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
@@ -71,14 +71,6 @@ function HomePage() {
               <Dropdown.Item href="#/action-8">Price R1,000,000 - R5,000,000</Dropdown.Item>
               <Dropdown.Item href="#/action-9">Price Above R5,000,000</Dropdown.Item>
             </DropdownButton>
-            <Container>
-              <Row>
-                <Col>Test 1</Col>
-                <Col>Test 2</Col>
-                <Col>Test 3</Col>
-                <Col>Test 4</Col>
-              </Row>
-            </Container>
           </div>
           <div className="col-12">
             <div className="row">

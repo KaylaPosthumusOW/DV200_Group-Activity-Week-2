@@ -6,7 +6,7 @@ const properties = [
       description: 'Spacious and modern apartment located in the heart of the city.',
       location: 'Pretoria - Moreleta Park',
       imageUrl: '../assets/house 1.jpg',
-      bedrooms: '4',
+      bedrooms: '3',
       bathrooms: '2',
       amenities: 'Braai Area, Swimming Pool, Parking Garage'
     },
@@ -28,8 +28,8 @@ const properties = [
         description: 'Enjoy picturesque views from this delightful residence, offering a peaceful ambiance and modern comforts.',
         location: 'Pretoria - Lynnwood',
         imageUrl: '../assets/house 3.jpg',
-        bedrooms: '6',
-        bathrooms: '4',
+        bedrooms: '2',
+        bathrooms: '1',
         amenities: 'Swimming Pool, Parking Garage'
       },
       {
@@ -61,8 +61,8 @@ const properties = [
         description: 'Spacious layout with ample room for family activities and gatherings, creating a warm and inviting atmosphere.',
         location: 'Pretoria - Elardus Park',
         imageUrl: '../assets/house 6.jpg',
-        bedrooms: '4',
-        bathrooms: '3',
+        bedrooms: '2',
+        bathrooms: '1',
         amenities: 'Swimming Pool, Parking Garage'
       },
       {
@@ -72,7 +72,7 @@ const properties = [
         description: 'A well-maintained home featuring harmonious interiors and spacious living areas ideal for family gatherings.',
         location: 'Pretoria - Waterkloof',
         imageUrl: '../assets/house 7.jpg',
-        bedrooms: '5',
+        bedrooms: '3',
         bathrooms: '3',
         amenities: 'Parking Garage'
       },
@@ -83,8 +83,8 @@ const properties = [
         description: 'A serene escape with lush greenery and a private garden, perfect for relaxation and unwinding.',
         location: 'Pretoria - Waterkloof',
         imageUrl: '../assets/house 8.jpg',
-        bedrooms: '6',
-        bathrooms: '3',
+        bedrooms: '3',
+        bathrooms: '2',
         amenities: 'Swimming Pool, Parking Garage'
       },
   ];
