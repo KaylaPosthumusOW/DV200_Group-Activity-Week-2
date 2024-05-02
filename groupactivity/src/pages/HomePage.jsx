@@ -10,6 +10,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Dropdown from "react-bootstrap/Dropdown";
+import Footer from "../components/Footer";
 
 function HomePage() {
   return (
@@ -64,13 +65,9 @@ function HomePage() {
               </Row>
             </Container>
           </div>
-          <div className="col-12">
-            
-              
-             
-          </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
