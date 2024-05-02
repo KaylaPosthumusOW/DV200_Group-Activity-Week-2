@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 // Import Components
 import PropertyCard from "../components/Card";
+import CardGroup from "../components/CardGroup";
 import Navbar from "../components/Navbar";
 import heroHouseImg from "../assets/houseHero.png";
 
@@ -63,7 +64,11 @@ function HomePage() {
               </Row>
             </Container>
           </div>
-          <div className="col-12"></div>
+          <div className="col-12">
+            
+              
+             
+          </div>
         </div>
       </div>
     </div>
