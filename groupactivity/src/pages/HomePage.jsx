@@ -16,9 +16,24 @@ import Col from "react-bootstrap/Col";
 import Footer from "../components/Footer";
 
 function HomePage() {
+
+  let property = {
+    id: 1,
+    title: 'Elevate Modern Home',
+    price: '$250,000',
+    description: 'Spacious and modern apartment located in the heart of the city.',
+    location: 'Pretoria - Moreleta Park',
+    imageUrl: '../assets/house 1.jpg',
+    bedrooms: '4',
+    bathrooms: '2',
+    amenities: 'Braai Area, Swimming Pool, Parking Garage'
+  };
+  console.log(property.id);
+
+
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container col-xxl-8 px-4 py-5">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
@@ -69,6 +84,24 @@ function HomePage() {
                 <Col>Test 4</Col>
               </Row>
             </Container>
+          </div>
+          <div className="col-12">
+            <div className="row">
+              
+              <div className="col-3">
+                <PropertyCard propertyID={property.id}></PropertyCard>
+              </div>
+              <div className="col-3">
+                <PropertyCard propertyID={property.id}></PropertyCard>
+              </div>
+              <div className="col-3">
+                <PropertyCard propertyID={property.id}></PropertyCard>
+              </div>
+              <div className="col-3">
+                <PropertyCard propertyID={property.id}></PropertyCard>
+              </div>
+            </div>
+              
           </div>
         </div>
       </div>
