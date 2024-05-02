@@ -20,10 +20,6 @@ function Navbar() {
               Add a Property
             </Link>
 
-            <Link class="nav-link-details" to="/PropertyDetailsPage">
-              Property Details
-            </Link>
-
           </div>
         </div>
       </div>

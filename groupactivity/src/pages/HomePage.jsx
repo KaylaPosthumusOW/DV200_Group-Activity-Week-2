@@ -65,11 +65,7 @@ function HomePage() {
               <Dropdown.Divider />
               <Dropdown.Item href="#/action-4">1 Bathroom</Dropdown.Item>
               <Dropdown.Item href="#/action-5">2 Bathrooms</Dropdown.Item>
-              <Dropdown.Item href="#/action-6">3+ Bathrooms</Dropdown.Item>
-              <Dropdown.Divider />
-              <Dropdown.Item href="#/action-7">Price Below R1,000,000</Dropdown.Item>
-              <Dropdown.Item href="#/action-8">Price R1,000,000 - R5,000,000</Dropdown.Item>
-              <Dropdown.Item href="#/action-9">Price Above R5,000,000</Dropdown.Item>
+              <Dropdown.Item href="#/action-6">3 Bathrooms</Dropdown.Item>
             </DropdownButton>
           </div>
           <div className="col-12">

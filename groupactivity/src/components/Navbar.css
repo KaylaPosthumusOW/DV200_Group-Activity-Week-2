@@ -1,5 +1,5 @@
 nav{
-    background-color: lightgray;
+    background-color: rgb(211, 236, 244);
 }
 
 .navbar-brand{
@@ -16,7 +16,7 @@ nav{
 }
 
 .nav-link-addproperty{
-    margin-left: 120px;
+    margin-left: 60px;
     text-decoration: none;
     color: rgb(43, 43, 52);
 }
@@ -32,12 +32,7 @@ nav{
     
 }
 
-.nav-link-home:hover{
-    color: rgb(0, 94, 255);
-    
-}
-
-.nav-link-home:hover{
+.nav-link-addproperty:hover{
     color: rgb(0, 94, 255);
     
 }
